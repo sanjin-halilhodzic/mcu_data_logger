@@ -2396,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 189.23 24.13 90)
 			(effects
 				(font
@@ -2429,6 +2429,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2465,7 +2473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 134.62 52.0699 0)
 			(effects
 				(font
@@ -2499,6 +2507,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 130.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2535,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 177.8 77.4699 0)
 			(effects
 				(font
@@ -2569,6 +2585,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2605,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100nF"
 			(at 257.81 44.8309 0)
 			(effects
 				(font
@@ -2639,6 +2663,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2968,7 +3000,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 82.55 0)
+		(at 254 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2977,7 +3009,7 @@
 		(fields_autoplaced yes)
 		(uuid "21857405-33c3-40b2-8ff2-fed426d3e426")
 		(property "Reference" "R7"
-			(at 259.08 81.2799 0)
+			(at 256.54 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,8 +3017,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 259.08 83.8199 0)
+		(property "Value" "330"
+			(at 256.54 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254.762 82.55 90)
+			(at 252.222 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 82.55 0)
+			(at 254 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,12 +3045,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 82.55 0)
+			(at 254 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3031,6 +3071,84 @@
 			(project "mcu_data_logger"
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37243561-0e37-4335-bd11-4eb926b88bcb")
+		(property "Reference" "R3"
+			(at 133.35 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 133.35 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.032 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bfe944f-c487-46b2-8f22-9334a41e2ad7")
+		)
+		(pin "2"
+			(uuid "5d456f2a-ab1c-44e4-a020-dbfd60a1f01f")
+		)
+		(instances
+			(project "mcu_data_logger"
+				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 109.22 52.0699 0)
 			(effects
 				(font
@@ -3166,6 +3284,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3265,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 173.99 41.91 90)
 			(effects
 				(font
@@ -3298,6 +3424,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3334,7 +3468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 120.65 52.0699 0)
 			(effects
 				(font
@@ -3368,6 +3502,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3571,7 +3713,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 kHz"
 			(at 48.26 52.0699 90)
 			(effects
 				(font
@@ -3728,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 177.8 59.6899 0)
 			(effects
 				(font
@@ -3764,6 +3906,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3281b9e2-b97a-4375-9dc6-d803159d7409")
 		)
@@ -3774,76 +3924,6 @@
 			(project "mcu_data_logger"
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c19df9f3-86a3-4b85-b2dd-9b5e63d56df0")
-		(property "Reference" "R3"
-			(at 134.62 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 134.62 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.858 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12d546ac-21b6-42e5-b09c-5d0755caf1e5")
-		)
-		(pin "2"
-			(uuid "653d1edc-f085-49bc-a16c-39fd9e78726f")
-		)
-		(instances
-			(project "mcu_data_logger"
-				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3947,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 198.12 81.28 90)
 			(effects
 				(font
@@ -3900,6 +3980,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4343,7 +4431,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16MHz"
 			(at 194.31 63.4999 90)
 			(effects
 				(font
@@ -4377,6 +4465,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4413,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 143.51 173.9899 0)
 			(effects
 				(font
@@ -4447,6 +4543,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 140.97 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
