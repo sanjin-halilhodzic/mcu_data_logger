@@ -4589,7 +4589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c94e741-204f-4ba6-b2e3-51edb3d96337")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 116.332 160.528 0)
 			(effects
 				(font
@@ -4634,6 +4634,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 110.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "dfe53f8e-ea6e-4d3c-8504-c88e637688df")
 		)
@@ -4661,7 +4669,7 @@
 		(instances
 			(project "mcu_data_logger"
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b3b1af-f686-43c4-ac52-bc24f9732045")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 73.66 33.02 0)
 			(effects
 				(font
@@ -5879,6 +5887,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "52580af1-6e65-44ab-be8e-db195f175934")
 		)
@@ -5906,7 +5922,7 @@
 		(instances
 			(project ""
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
