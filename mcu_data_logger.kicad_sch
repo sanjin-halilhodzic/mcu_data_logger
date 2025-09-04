@@ -3796,7 +3796,7 @@
 		)
 		(uuid "0fa80772-fc58-414c-882c-edfbfb5849cd")
 	)
-	(label "RTX"
+	(label "RX"
 		(at 157.48 142.24 180)
 		(effects
 			(font
@@ -4156,7 +4156,7 @@
 		)
 		(uuid "d9f014f7-3897-4866-9958-89fcfb2a5930")
 	)
-	(label "RTX"
+	(label "RX"
 		(at 242.57 43.18 0)
 		(effects
 			(font
