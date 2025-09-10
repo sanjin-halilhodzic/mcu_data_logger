@@ -2777,10 +2777,6 @@
 		(uuid "fa08b5fc-96ee-45ec-ad62-b93fbeaf1edc")
 	)
 	(no_connect
-		(at 194.31 17.78)
-		(uuid "2e66ce00-eec7-44b5-bd90-5ea7e8d40983")
-	)
-	(no_connect
 		(at 242.57 38.1)
 		(uuid "37a8db1d-7aee-48fb-8ca1-9ad8eb422b57")
 	)
