@@ -5280,7 +5280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5861e73e-9297-4358-909a-04c1ffcd517d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 186.3725 34.29 0)
 			(effects
 				(font
@@ -5332,6 +5332,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ecffa2a-35ff-4451-a117-443a803c01c8")
 		)
@@ -5341,7 +5349,7 @@
 		(instances
 			(project "mcu_data_logger"
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6103,7 +6111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe12bb7-6551-4743-b429-8402f855d50b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 257.81 62.5474 90)
 			(effects
 				(font
@@ -6157,6 +6165,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99a00b5f-738e-412d-949b-5993bb558ad8")
 		)
@@ -6166,7 +6182,7 @@
 		(instances
 			(project ""
 				(path "/8d241645-05dd-4180-8806-a9efe0716d11"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
