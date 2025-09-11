@@ -3932,16 +3932,6 @@
 		)
 		(uuid "5012df02-f11b-44d0-a42b-4c75ef0977e0")
 	)
-	(label "Abc123"
-		(at 204.47 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57fb78be-d41c-4eb1-91b5-06d24859531c")
-	)
 	(label "SCK"
 		(at 62.23 137.16 0)
 		(effects
